@@ -5,6 +5,10 @@ layout: page
 # Required setup
 
 * Install [Atom](atom.html)
+  * Download Atom from [the Atom website](https://atom.io/).
+  * Install and run it.
+  * Run Atom > Install Shell Commands.
+  * Run Atom > Preferences and install the Atom Lint package.
 * Install Google Chrome ([download](https://www.google.com/intl/en/chrome/browser/))
 * Install iTerm2 ([download](http://www.iterm2.com/#/section/home))
     * Check for update after install
