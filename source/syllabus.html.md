@@ -19,6 +19,8 @@ clinton@theironyard.com
 
 ## Schedule
 
+Class is from June 2 to August 22, 2014.
+
 Lecture is from 9 AM to 12:30 PM Monday-Thursday, with breaks during that time.
 Depending on the topic, we may end early.
 

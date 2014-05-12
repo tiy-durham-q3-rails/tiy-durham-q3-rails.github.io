@@ -57,6 +57,8 @@ end
 # proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
 #  :which_fake_page => "Rendering a fake page with a local variable" }
 
+ignore "/bower_components/*"
+
 ###
 # Helpers
 ###
@@ -90,16 +92,24 @@ set :images_dir, 'images'
 
 activate :livereload
 
+activate :deploy do |deploy|
+  # ...
+  deploy.build_before = true # default: false
+  deploy.method = :git
+  deploy.remote   = "origin" # remote name or git url, default: origin
+  deploy.branch   = "master" # default: gh-pages
+end
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
-  # activate :minify_css
+  activate :minify_css, ignore: /bower_components/
 
   # Minify Javascript on build
-  # activate :minify_javascript
+  activate :minify_javascript, ignore: /bower_components/
 
   # Enable cache buster
-  # activate :asset_hash
+  activate :asset_hash, ignore: /bower_components/
 
   # Use relative URLs
   # activate :relative_assets
