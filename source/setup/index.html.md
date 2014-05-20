@@ -10,8 +10,6 @@ layout: page
   * Run Atom > Install Shell Commands.
   * Run Atom > Preferences and install the Atom Lint package.
 * Install Google Chrome ([download](https://www.google.com/intl/en/chrome/browser/))
-* Install iTerm2 ([download](http://www.iterm2.com/#/section/home))
-    * Check for update after install
 * Install Alfred ([download](http://www.alfredapp.com/))
     * Optional but useful
 * Install ScreenHero ([download](http://screenhero.com/download.html))
@@ -24,7 +22,7 @@ layout: page
     * Download it, run it, and follow all the prompts.
     * Your teacher may provide this file to reduce downloads.
 * Install [Homebrew](homebrew.html)
-    * Open up iTerm
+    * Open up Terminal
     * Paste `ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"`
     * Run `brew doctor`
 * Install rbenv & ruby-build

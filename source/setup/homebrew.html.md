@@ -12,7 +12,7 @@ managed by Homebrew.
 
 To install Homebrew:
 
-1. Open up iTerm.
-2. Paste the following command into iTerm: `ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"`
+1. Open up Terminal.
+2. Paste the following command into Terminal: `ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"`
 3. Follow the instructions on-screen.
 4. When finished, run `brew doctor`.
