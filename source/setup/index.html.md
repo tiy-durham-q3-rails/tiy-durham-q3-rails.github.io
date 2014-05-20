@@ -41,3 +41,6 @@ layout: page
     * `brew install nodejs`
 * Install git
     * `brew install git`
+* Create an SSH key
+    * `ssh-keygen`
+* Register for a [GitHub](https://github.com) account
