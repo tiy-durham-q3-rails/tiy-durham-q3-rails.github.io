@@ -34,3 +34,4 @@ layout: page
 * [RubyDoc.info](http://www.rubydoc.info/) - documentation for any Ruby gem you can think of
 * [Ruby Toolbox](https://www.ruby-toolbox.com/) - find gems that will meet your needs
 * [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web) - documentation for HTML, CSS, and JavaScript
+* [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) - how to format your Ruby code
