@@ -35,3 +35,4 @@ layout: page
 * [Ruby Toolbox](https://www.ruby-toolbox.com/) - find gems that will meet your needs
 * [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web) - documentation for HTML, CSS, and JavaScript
 * [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) - how to format your Ruby code
+* [Michael Byrd's Command Line flash cards](http://quizlet.com/44120774/command-line-flash-cards/)
