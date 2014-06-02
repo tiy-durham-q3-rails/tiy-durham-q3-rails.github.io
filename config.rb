@@ -93,7 +93,6 @@ set :images_dir, 'images'
 activate :livereload
 
 activate :deploy do |deploy|
-  # ...
   deploy.build_before = true # default: false
   deploy.method = :git
   deploy.remote   = "origin" # remote name or git url, default: origin
