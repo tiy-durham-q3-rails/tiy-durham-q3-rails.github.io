@@ -25,6 +25,7 @@ layout: page
 * [Learn Ruby on Rails](http://learn-rails.com/learn-ruby-on-rails.html)
 * [Michael Hartl's Ruby on Rails Tutorial](http://www.railstutorial.org/) (read online for free)
 * [Learn Ruby the Hard Way](http://ruby.learncodethehardway.org/) (read online for free)
+* [Pro Git](http://git-scm.com/book)
 
 ## Reference
 
@@ -36,3 +37,4 @@ layout: page
 * [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web) - documentation for HTML, CSS, and JavaScript
 * [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) - how to format your Ruby code
 * [Michael Byrd's Command Line flash cards](http://quizlet.com/44120774/command-line-flash-cards/)
+* [The Git website](http://git-scm.com/) - lots of videos and resources to learn git
