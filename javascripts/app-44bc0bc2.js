@@ -1,0 +1,1 @@
+$(document).foundation(),$(document).ready(function(){var a=$("h2").each(function(){var a=this.id;$(this).attr("data-magellan-destination",a)}).map(function(){var a=this.id;return"<li data-magellan-arrival='"+a+"'><a href='#"+a+"'>"+this.innerText+"</a></li>"}).get();$("#doc-nav").empty(),$("#doc-nav").append(a)});
