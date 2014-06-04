@@ -4,6 +4,12 @@ layout: page
 
 # Resources
 
+## Our class
+
+* [Class Wiki](https://github.com/tiy-durham-q3-rails/tiy-durham-q3-rails.github.io/wiki)
+* [Class Basecamp](https://basecamp.com/1940253/projects/6016749)
+* [TIY Durham Basecamp](https://basecamp.com/1940253/projects/5826367)
+
 ## Ruby
 
 * [RubyDoc](http://ruby-doc.org/) - the official documentation for Ruby, not very intuitive
