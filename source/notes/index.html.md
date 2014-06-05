@@ -10,3 +10,6 @@ layout: page
 * [Day 2](d2.html)
 * [Day 3 - Homework Review](d3-homework-review.html)
 * [Day 3 - String Interpolation and Blocks](d3-strings-and-blocks.html)
+* [Day 4 - Homework Review](d4-homework.html)
+* [Day 4 - Object Design](d4-object-design.html)
+* [Day 4 - Testing](d4-testing.html)
