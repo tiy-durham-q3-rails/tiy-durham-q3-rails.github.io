@@ -13,3 +13,4 @@ layout: page
 * [Day 4 - Homework Review](d4-homework.html)
 * [Day 4 - Object Design](d4-object-design.html)
 * [Day 4 - Testing](d4-testing.html)
+* [Day 5 - Blocks](d5-blocks.html)
