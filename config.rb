@@ -3,9 +3,6 @@
 ###
 
 compass_config do |config|
-  # Require any additional compass plugins here.
-  config.add_import_path "bower_components/foundation/scss"
-
   # Set this to the root of your project when deployed:
   config.http_path = "/"
   config.css_dir = "stylesheets"
@@ -17,18 +14,16 @@ compass_config do |config|
   # output_style = :expanded or :nested or :compact or :compressed
 
   # To enable relative paths to assets via compass helper functions. Uncomment:
-  config.relative_assets = true
+  # config.relative_assets = true
 
   # To disable debugging comments that display the original location of your selectors. Uncomment:
   # line_comments = false
-
 
   # If you prefer the indented syntax, you might want to regenerate this
   # project again passing --syntax sass, or you can uncomment this:
   # preferred_syntax = :sass
   # and then run:
   # sass-convert -R --from scss --to sass sass scss && rm -rf sass && mv scss sass
-
 end
 
 # Change Compass configuration
@@ -57,8 +52,6 @@ end
 # proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
 #  :which_fake_page => "Rendering a fake page with a local variable" }
 
-ignore "/bower_components/*"
-
 ###
 # Helpers
 ###
@@ -66,21 +59,12 @@ ignore "/bower_components/*"
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
-# Reload the browser automatically whenever files change
-# activate :livereload
-
 # Methods defined in the helpers block are available in templates
 # helpers do
 #   def some_helper
 #     "Helping"
 #   end
 # end
-
-# Add bower's directory to sprockets asset path
-after_configuration do
-  @bower_config = JSON.parse(IO.read("#{root}/.bowerrc"))
-  sprockets.append_path File.join "#{root}", @bower_config["directory"]
-end
 
 set :css_dir, 'stylesheets'
 
@@ -90,8 +74,6 @@ set :images_dir, 'images'
 
 # set :markdown_engine, :redcarpet
 
-activate :livereload
-
 activate :deploy do |deploy|
   deploy.build_before = true # default: false
   deploy.method = :git
@@ -99,16 +81,20 @@ activate :deploy do |deploy|
   deploy.branch   = "master" # default: gh-pages
 end
 
+configure :development do
+  activate :livereload
+end
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
-  activate :minify_css, ignore: /bower_components/
+  activate :minify_css
 
   # Minify Javascript on build
-  activate :minify_javascript, ignore: /bower_components/
+  activate :minify_javascript
 
   # Enable cache buster
-  activate :asset_hash, ignore: /bower_components/
+  activate :asset_hash
 
   # Use relative URLs
   # activate :relative_assets

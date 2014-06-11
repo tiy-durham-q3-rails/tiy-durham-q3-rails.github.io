@@ -1,6 +1,6 @@
-//= require jquery/dist/jquery.min.js
-//= require foundation/js/foundation.min.js
-//= require foundation/js/foundation/foundation.magellan.js
+//= require jquery
+//= require foundation/foundation
+//= require foundation/foundation.magellan
 
 //= require app
 //= require script
