@@ -39,7 +39,12 @@ layout: page
 
 ## HTML
 
+* [Mozilla Developer Network - HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* [Mozilla Developer Network - DOM](https://developer.mozilla.org/en-US/docs/DOM) - docs on the Document Object Model, which both HTML and JavaScript interact with
+
 ## CSS
+
+* [Mozilla Developer Network - CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 ## JavaScript
 
