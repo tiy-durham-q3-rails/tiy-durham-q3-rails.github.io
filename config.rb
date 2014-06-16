@@ -102,3 +102,11 @@ configure :build do
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 end
+
+helpers do
+  def menu_item(title, link)
+    content_tag(:li, class: ('current' if current_page.url == link)) do
+      link_to title, link
+    end
+  end
+end

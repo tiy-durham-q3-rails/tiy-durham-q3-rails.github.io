@@ -27,16 +27,12 @@
             <a href="#"><%= title %></a>
             <ul class="dropdown">
               <% link_or_dropdown.each do |title, link| %>
-              <li<%= " class='current'" if current_page.url == link %>>
-              <a href="<%= link %>"><%= title %></a>
-              </li>
+                <%= menu_item(title, link) %>
               <% end %>
             </ul>
           </li>
           <% else %>
-          <li<%= " class='current'" if current_page.url == link_or_dropdown %>>
-            <a href="<%= link_or_dropdown %>"><%= title %></a>
-          </li>
+            <%= menu_item(title, link_or_dropdown) %>
           <% end %>
           <% end %>
         </ul>
