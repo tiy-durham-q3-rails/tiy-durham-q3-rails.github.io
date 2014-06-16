@@ -32,6 +32,12 @@ title: TIY Durham Q3 Rails
         </a>
       </li>
     </ul>
+    <h2>Students</h2>
+    <ul>
+      <% data.students.each do |name, gh_profile| %>
+        <li><%= link_to name, gh_profile %></li>
+      <% end %>
+    </ul>
   </div>
   <div class="large-4 columns">
     <div class="panel callout radius">

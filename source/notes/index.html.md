@@ -22,3 +22,7 @@ layout: page
 * [Day 1 - Method arguments](d6-method-arguments.html)
 * [Day 1 - Inheritance](d6-inheritance.html)
 * [Day 1 - Modules](d6-modules.html)
+
+## Week 3
+
+* [Day 1 - Advanced Middleman](w3/middleman/)
