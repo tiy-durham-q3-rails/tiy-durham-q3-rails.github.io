@@ -22,7 +22,20 @@ layout: page
 * [Ruby Koans](http://rubykoans.com/) - exercises to expand your mind
 * [Ruby Warrior](https://www.bloc.io/ruby-warrior/) - learn Ruby by playing a really fun game
 * [Learn Ruby the Hard Way](http://ruby.learncodethehardway.org/) - in-depth book about Ruby
+
+## Rails
+
+* [Rails Documentation](http://api.rubyonrails.org/) - the official documentation for Rails
+* [Learn Ruby on Rails](http://learn-rails.com/learn-ruby-on-rails.html)
+* [Michael Hartl's Ruby on Rails Tutorial](http://www.railstutorial.org/)
+* [Rails for Zombies](http://railsforzombies.org/)
+
+## Regular Expressions
+
+* [Regular Expressions in Ten Steps](http://russolsen.com/blog/2014/03/21/regular-expressions/) - good blog post
+  to familiarize yourself with regexps
 * [RegexOne](http://regexone.com/) - learn regular expressions _if you dare_
+
 
 ## Command line
 
@@ -50,10 +63,3 @@ layout: page
 
 * [Mozilla Developer Network - JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - documentation for JavaScript
 * [Code Combat](http://codecombat.com/) - Learn JavaScript by playing a game
-
-## Rails
-
-* [Rails Documentation](http://api.rubyonrails.org/) - the official documentation for Rails
-* [Learn Ruby on Rails](http://learn-rails.com/learn-ruby-on-rails.html)
-* [Michael Hartl's Ruby on Rails Tutorial](http://www.railstutorial.org/)
-* [Rails for Zombies](http://railsforzombies.org/)
